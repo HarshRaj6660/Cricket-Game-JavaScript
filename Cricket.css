@@ -1,0 +1,24 @@
+ body {
+    text-align: center; 
+    background-color: rgb(111, 221, 235);
+  }
+  .Choice-buton{
+     border: none;
+     border-radius: 50px;
+  }
+  .Choice-image{
+     height: 75px;
+     width: 75px;
+     margin: 10px;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+  }
+  .reset-choice{
+     height: 35px;
+     width: 95px;
+     text-transform: uppercase;
+     border-radius: 50px;
+     background-color: palegreen;
+     font-weight: 700;
+  }
