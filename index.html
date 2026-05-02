@@ -7,7 +7,7 @@
 </head>
 <link rel="stylesheet" href="Cricket.css">
 <body>
-   <h1>Bat Ball Stump Game by Prince Kumar</h1> 
+   <h1>Bat Ball Stump Game</h1> 
    <button class="Choice-buton"  onclick="
       let computerChoice = generateComputerChoice();
       let resultMsg = getResult('Bat',computerChoice);
@@ -49,7 +49,7 @@
        };
 
        score.displayScore = function (){
-          return ` Score:${score.win},Lost:${score.lost},Tie:${score.tie}`;
+          return ` Score: Won:${score.win},Lost:${score.lost},Tie:${score.tie}`;
         };
 
         showResult();
